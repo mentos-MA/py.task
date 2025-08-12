@@ -1,0 +1,13 @@
+import numpy as np 
+n=int(input())  #length of password
+uppercase =np.array(chr(i) for i in range(ord('A'), ord('Z') + 1))
+lowercase =np.array(chr(i) for i in range(ord('A'), ord('Z') + 1))
+rng=np.random.default_rng()     
+               
+def pas():
+    for i in range(n):
+        digits=rng.integers(low=0)  
+        print(digits)
+       
+
+pas()
